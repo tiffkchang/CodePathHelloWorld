@@ -1,10 +1,10 @@
 ## HelloWorld
 
 ### App Description
-This app displays the text "Hello from Tiffany!" at the top of the screen. When the buttom on the bottom is pressed, it changes the color of the text at the top to white.
+This app displays the text "Hello from Tiffany!" at the top of the screen. When the buttom on the bottom is pressed, it changes the color of the text at the top to white. When the top button is pressed, it changes the background color to be a light orange.
 
 ### App Walk-though
-<img src="https://i.imgur.com/qgVJh8g.gif" width=200><br>
+<img src="https://i.imgur.com/3Cvrxge.gif" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
@@ -12,7 +12,7 @@ This app displays the text "Hello from Tiffany!" at the top of the screen. When 
 - [x] 3. User can tap a button to change the text color of the label.
 
 ### Optional User Stories
-- [ ] 1. User can tap a button to change the color of the background view.  
+- [x] 1. User can tap a button to change the color of the background view.  
 - [ ] 2. User can tap a button to change the text string of the label - Android is Awesome!  
 - [ ] 3. User can tap on the background view to reset all views to default settings.  
 - [ ] 4. User can update the label text with custom text entered into the text field.  
