@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/parent"
     android:background="#e6b6b0"
     tools:context=".MainActivity">
 
@@ -28,5 +29,17 @@
         android:padding="10dp"
         android:layout_alignParentBottom="true"
         android:textSize="30sp" />
+
+    <TextView
+        android:layout_above="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffe2ea"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/changeBackgroundButton"
+        android:text="Click to change background color"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
 
 </RelativeLayout>

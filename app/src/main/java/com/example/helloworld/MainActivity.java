@@ -19,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
                 ((TextView) findViewById(R.id.text)).setTextColor(getResources().getColor(R.color.white));
             }
         });
+
+        findViewById(R.id.changeBackgroundButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.parent).setBackgroundColor(getResources().getColor(R.color.lightorange));
+            }
+        });
     }
 }
